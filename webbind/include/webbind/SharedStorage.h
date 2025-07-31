@@ -5,6 +5,11 @@
 #include "SharedStorageWorklet.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SharedStorageSetMethodOptions SharedStorageSetMethodOptions;
 typedef struct SharedStorageModifierMethodOptions SharedStorageModifierMethodOptions;
 typedef struct SharedStorageModifierMethod SharedStorageModifierMethod;

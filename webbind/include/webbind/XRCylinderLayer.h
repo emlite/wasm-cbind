@@ -5,6 +5,11 @@
 #include "XRCompositionLayer.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct XRSpace XRSpace;
 typedef struct XRRigidTransform XRRigidTransform;
 

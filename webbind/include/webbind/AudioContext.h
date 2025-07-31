@@ -5,6 +5,11 @@
 #include "BaseAudioContext.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AudioTimestamp AudioTimestamp;
 typedef struct MediaElementAudioSourceNode MediaElementAudioSourceNode;
 typedef struct HTMLMediaElement HTMLMediaElement;

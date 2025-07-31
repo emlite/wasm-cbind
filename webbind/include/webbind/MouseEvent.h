@@ -5,6 +5,11 @@
 #include "UIEvent.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct EventTarget EventTarget;
 typedef struct Window Window;
 

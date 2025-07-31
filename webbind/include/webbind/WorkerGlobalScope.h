@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct WorkerGlobalScope WorkerGlobalScope;
 typedef struct WorkerLocation WorkerLocation;
 typedef struct WorkerNavigator WorkerNavigator;

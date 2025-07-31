@@ -6,6 +6,11 @@
 #include "SVGGeometryElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SVGAnimatedLength SVGAnimatedLength;
 typedef struct SVGAnimatedEnumeration SVGAnimatedEnumeration;
 typedef struct DOMPoint DOMPoint;

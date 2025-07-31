@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Document Document;
 typedef struct GetRootNodeOptions GetRootNodeOptions;
 typedef struct Element Element;

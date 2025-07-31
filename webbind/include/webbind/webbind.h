@@ -1122,3 +1122,13 @@
 #include "console.h"
 #include "enums.h"
 #include "window.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+
+#ifdef __cplusplus
+}
+#endif

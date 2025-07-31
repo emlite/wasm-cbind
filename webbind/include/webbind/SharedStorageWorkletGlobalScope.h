@@ -5,6 +5,11 @@
 #include "WorkletGlobalScope.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SharedStorage SharedStorage;
 typedef struct PrivateAggregation PrivateAggregation;
 typedef struct StorageInterestGroup StorageInterestGroup;

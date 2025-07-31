@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct ColorSelectionResult ColorSelectionResult;
 typedef struct ColorSelectionOptions ColorSelectionOptions;
 typedef struct AbortSignal AbortSignal;

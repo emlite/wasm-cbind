@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct USBEndpoint USBEndpoint;
 typedef struct USBInterface USBInterface;
 

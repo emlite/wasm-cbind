@@ -4,6 +4,10 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 DECLARE_EMLITE_TYPE(ANGLE_instanced_arrays, em_Val);
 

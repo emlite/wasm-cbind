@@ -5,6 +5,10 @@
 #include "XRDepthInformation.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 DECLARE_EMLITE_TYPE(XRCPUDepthInformation, XRDepthInformation);
 

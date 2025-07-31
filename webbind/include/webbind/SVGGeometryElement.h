@@ -5,6 +5,11 @@
 #include "SVGGraphicsElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SVGAnimatedNumber SVGAnimatedNumber;
 typedef struct DOMPointInit DOMPointInit;
 typedef struct DOMPoint DOMPoint;

@@ -5,6 +5,11 @@
 #include "CSSStyleValue.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSNumericValue CSSNumericValue;
 typedef struct CSSUnitValue CSSUnitValue;
 typedef struct CSSMathSum CSSMathSum;

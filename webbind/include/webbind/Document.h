@@ -5,6 +5,11 @@
 #include "Node.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DOMImplementation DOMImplementation;
 typedef struct DocumentType DocumentType;
 typedef struct Element Element;

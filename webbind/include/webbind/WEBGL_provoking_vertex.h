@@ -4,6 +4,10 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 DECLARE_EMLITE_TYPE(WEBGL_provoking_vertex, em_Val);
 

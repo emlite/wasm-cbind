@@ -5,6 +5,11 @@
 #include "Worklet.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SharedStorageUrlWithMetadata SharedStorageUrlWithMetadata;
 typedef struct SharedStorageRunOperationMethodOptions SharedStorageRunOperationMethodOptions;
 

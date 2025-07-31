@@ -5,6 +5,11 @@
 #include "SVGElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SVGAnimatedTransformList SVGAnimatedTransformList;
 typedef struct DOMRect DOMRect;
 typedef struct SVGBoundingBoxOptions SVGBoundingBoxOptions;

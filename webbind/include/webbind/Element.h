@@ -5,6 +5,11 @@
 #include "Node.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DOMTokenList DOMTokenList;
 typedef struct NamedNodeMap NamedNodeMap;
 typedef struct Attr Attr;

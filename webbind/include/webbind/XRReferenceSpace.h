@@ -5,6 +5,11 @@
 #include "XRSpace.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct XRReferenceSpace XRReferenceSpace;
 typedef struct XRRigidTransform XRRigidTransform;
 

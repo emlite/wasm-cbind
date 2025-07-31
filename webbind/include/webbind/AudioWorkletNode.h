@@ -5,6 +5,11 @@
 #include "AudioNode.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AudioParamMap AudioParamMap;
 typedef struct MessagePort MessagePort;
 typedef struct BaseAudioContext BaseAudioContext;

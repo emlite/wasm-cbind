@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct BluetoothRemoteGATTServer BluetoothRemoteGATTServer;
 typedef struct WatchAdvertisementsOptions WatchAdvertisementsOptions;
 typedef struct AbortSignal AbortSignal;

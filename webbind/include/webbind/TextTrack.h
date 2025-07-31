@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct TextTrackCueList TextTrackCueList;
 typedef struct TextTrackCue TextTrackCue;
 typedef struct SourceBuffer SourceBuffer;

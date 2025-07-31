@@ -5,6 +5,11 @@
 #include "XMLHttpRequestEventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct XMLHttpRequestUpload XMLHttpRequestUpload;
 typedef struct Document Document;
 typedef struct AttributionReportingRequestOptions AttributionReportingRequestOptions;

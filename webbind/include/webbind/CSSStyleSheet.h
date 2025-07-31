@@ -5,6 +5,11 @@
 #include "StyleSheet.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSRule CSSRule;
 typedef struct CSSRuleList CSSRuleList;
 typedef struct CSSStyleSheet CSSStyleSheet;

@@ -5,6 +5,11 @@
 #include "Node.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Element Element;
 typedef struct HTMLCollection HTMLCollection;
 typedef struct NodeList NodeList;

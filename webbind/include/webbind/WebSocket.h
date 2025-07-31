@@ -5,6 +5,10 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 DECLARE_EMLITE_TYPE(WebSocket, EventTarget);
 

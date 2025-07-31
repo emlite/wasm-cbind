@@ -6,6 +6,11 @@
 #include "SVGElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSStyleDeclaration CSSStyleDeclaration;
 typedef struct DOMStringMap DOMStringMap;
 

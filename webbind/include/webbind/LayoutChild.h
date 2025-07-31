@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct StylePropertyMapReadOnly StylePropertyMapReadOnly;
 typedef struct IntrinsicSizes IntrinsicSizes;
 typedef struct LayoutFragment LayoutFragment;

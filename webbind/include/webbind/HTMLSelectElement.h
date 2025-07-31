@@ -5,6 +5,11 @@
 #include "HTMLElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct HTMLFormElement HTMLFormElement;
 typedef struct HTMLOptionsCollection HTMLOptionsCollection;
 typedef struct HTMLOptionElement HTMLOptionElement;

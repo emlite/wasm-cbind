@@ -7,7 +7,7 @@ async function main() {
   await clean();
   const specAst = await webref.parseAll();
   generate(specAst);
-  await postproc();
+  // await postproc();
   console.log("Generation done!");
 }
 

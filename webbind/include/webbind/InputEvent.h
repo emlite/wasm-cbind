@@ -5,6 +5,11 @@
 #include "UIEvent.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DataTransfer DataTransfer;
 typedef struct StaticRange StaticRange;
 

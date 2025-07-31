@@ -5,6 +5,11 @@
 #include "CharacterData.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSStyleSheet CSSStyleSheet;
 
 

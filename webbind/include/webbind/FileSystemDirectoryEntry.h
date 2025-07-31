@@ -5,6 +5,11 @@
 #include "FileSystemEntry.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct FileSystemDirectoryReader FileSystemDirectoryReader;
 typedef struct FileSystemFlags FileSystemFlags;
 

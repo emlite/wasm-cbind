@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DocumentType DocumentType;
 typedef struct XMLDocument XMLDocument;
 typedef struct Document Document;

@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct LockOptions LockOptions;
 typedef struct LockManagerSnapshot LockManagerSnapshot;
 typedef struct AbortSignal AbortSignal;

@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Element Element;
 typedef struct DOMRectReadOnly DOMRectReadOnly;
 typedef struct ResizeObserverSize ResizeObserverSize;

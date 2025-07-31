@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct RTCRtpSender RTCRtpSender;
 typedef struct RTCRtpReceiver RTCRtpReceiver;
 typedef struct RTCRtpCodec RTCRtpCodec;

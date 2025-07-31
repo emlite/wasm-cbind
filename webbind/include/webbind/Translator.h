@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Translator Translator;
 typedef struct TranslatorCreateOptions TranslatorCreateOptions;
 typedef struct TranslatorCreateCoreOptions TranslatorCreateCoreOptions;

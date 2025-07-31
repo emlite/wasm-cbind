@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Rewriter Rewriter;
 typedef struct RewriterCreateOptions RewriterCreateOptions;
 typedef struct RewriterCreateCoreOptions RewriterCreateCoreOptions;

@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct MediaStreamTrack MediaStreamTrack;
 typedef struct MediaTrackCapabilities MediaTrackCapabilities;
 typedef struct MediaTrackConstraints MediaTrackConstraints;

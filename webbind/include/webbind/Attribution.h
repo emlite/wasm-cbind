@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AttributionAggregationServices AttributionAggregationServices;
 typedef struct AttributionImpressionResult AttributionImpressionResult;
 typedef struct AttributionImpressionOptions AttributionImpressionOptions;

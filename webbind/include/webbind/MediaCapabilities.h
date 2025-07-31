@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct MediaCapabilitiesDecodingInfo MediaCapabilitiesDecodingInfo;
 typedef struct MediaDecodingConfiguration MediaDecodingConfiguration;
 typedef struct MediaCapabilitiesEncodingInfo MediaCapabilitiesEncodingInfo;

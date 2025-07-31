@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSUnitValue CSSUnitValue;
 typedef struct CSSParserDeclaration CSSParserDeclaration;
 typedef struct CSSParserRule CSSParserRule;
@@ -107,3 +112,8 @@ CSSUnitValue CSS_fr(double value);
 
 
 jb_String CSS_escape(jb_String * ident);
+
+
+#ifdef __cplusplus
+}
+#endif

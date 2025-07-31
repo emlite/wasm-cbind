@@ -5,6 +5,11 @@
 #include "HTMLMediaElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct VideoPlaybackQuality VideoPlaybackQuality;
 typedef struct PictureInPictureWindow PictureInPictureWindow;
 

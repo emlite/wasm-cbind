@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct RTCIceCandidate RTCIceCandidate;
 typedef struct RTCIceCandidatePair RTCIceCandidatePair;
 typedef struct RTCIceParameters RTCIceParameters;

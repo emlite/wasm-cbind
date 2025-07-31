@@ -6,6 +6,11 @@
 #include "SVGGeometryElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Text Text;
 typedef struct DOMQuad DOMQuad;
 typedef struct DOMRectReadOnly DOMRectReadOnly;

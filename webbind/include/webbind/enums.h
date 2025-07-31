@@ -3,6 +3,11 @@
 #include <emlite/emlite.h>
 #include <jsbind/jsbind.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct ReadableStream ReadableStream;
 
 

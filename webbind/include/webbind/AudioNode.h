@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AudioParam AudioParam;
 typedef struct BaseAudioContext BaseAudioContext;
 typedef struct AudioContext AudioContext;

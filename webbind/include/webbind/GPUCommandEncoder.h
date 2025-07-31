@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct GPURenderPassEncoder GPURenderPassEncoder;
 typedef struct GPURenderPassDescriptor GPURenderPassDescriptor;
 typedef struct GPUComputePassEncoder GPUComputePassEncoder;

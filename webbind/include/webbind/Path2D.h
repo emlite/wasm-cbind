@@ -5,6 +5,11 @@
 #include "SVGSVGElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Path2D Path2D;
 
 

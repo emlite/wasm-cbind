@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Highlight Highlight;
 typedef struct HighlightsFromPointOptions HighlightsFromPointOptions;
 typedef struct ShadowRoot ShadowRoot;

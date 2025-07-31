@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct XRSession XRSession;
 typedef struct XRViewerPose XRViewerPose;
 typedef struct XRReferenceSpace XRReferenceSpace;

@@ -6,6 +6,11 @@
 #include "SVGSVGElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct OffscreenCanvas OffscreenCanvas;
 typedef struct DOMMatrix DOMMatrix;
 typedef struct CanvasGradient CanvasGradient;

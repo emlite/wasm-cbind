@@ -5,6 +5,11 @@
 #include "Event.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct XRFrame XRFrame;
 typedef struct XRInputSource XRInputSource;
 

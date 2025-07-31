@@ -1,6 +1,10 @@
 #include <jsbind/jsbind.h>
 #include "DOMException.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 DECLARE_EMLITE_TYPE(IdentityCredentialError, DOMException);
 

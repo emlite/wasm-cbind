@@ -5,6 +5,11 @@
 #include "WorkletAnimationEffect.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct OptionalEffectTiming OptionalEffectTiming;
 typedef struct GroupEffect GroupEffect;
 typedef struct AnimationEffect AnimationEffect;

@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AnimationEffect AnimationEffect;
 typedef struct AnimationTimeline AnimationTimeline;
 typedef struct Animation Animation;

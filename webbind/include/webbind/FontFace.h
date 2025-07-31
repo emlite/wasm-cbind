@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct FontFace FontFace;
 typedef struct FontFaceFeatures FontFaceFeatures;
 typedef struct FontFaceVariations FontFaceVariations;

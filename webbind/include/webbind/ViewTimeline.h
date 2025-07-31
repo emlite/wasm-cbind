@@ -5,6 +5,11 @@
 #include "ScrollTimeline.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Element Element;
 typedef struct CSSNumericValue CSSNumericValue;
 

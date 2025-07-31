@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct MediaStreamTrack MediaStreamTrack;
 typedef struct RTCDtlsTransport RTCDtlsTransport;
 typedef struct RTCRtpCapabilities RTCRtpCapabilities;

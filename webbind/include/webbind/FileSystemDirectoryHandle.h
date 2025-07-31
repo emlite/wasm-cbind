@@ -5,6 +5,11 @@
 #include "FileSystemHandle.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct FileSystemFileHandle FileSystemFileHandle;
 typedef struct FileSystemGetFileOptions FileSystemGetFileOptions;
 typedef struct FileSystemDirectoryHandle FileSystemDirectoryHandle;

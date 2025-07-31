@@ -5,6 +5,11 @@
 #include "AudioScheduledSourceNode.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AudioBuffer AudioBuffer;
 typedef struct AudioParam AudioParam;
 

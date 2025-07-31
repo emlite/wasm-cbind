@@ -5,6 +5,11 @@
 #include "WorkerGlobalScope.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Clients Clients;
 typedef struct ServiceWorkerRegistration ServiceWorkerRegistration;
 typedef struct ServiceWorker ServiceWorker;

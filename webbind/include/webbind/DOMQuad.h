@@ -5,6 +5,11 @@
 #include "DOMRectReadOnly.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DOMQuad DOMQuad;
 typedef struct DOMPoint DOMPoint;
 typedef struct DOMRect DOMRect;

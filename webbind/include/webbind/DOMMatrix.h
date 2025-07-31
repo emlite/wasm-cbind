@@ -6,6 +6,11 @@
 #include "DOMPointReadOnly.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DOMMatrix DOMMatrix;
 
 

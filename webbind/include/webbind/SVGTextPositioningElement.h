@@ -5,6 +5,11 @@
 #include "SVGTextContentElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SVGAnimatedLengthList SVGAnimatedLengthList;
 typedef struct SVGAnimatedNumberList SVGAnimatedNumberList;
 

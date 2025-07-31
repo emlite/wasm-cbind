@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Writer Writer;
 typedef struct WriterCreateOptions WriterCreateOptions;
 typedef struct WriterCreateCoreOptions WriterCreateCoreOptions;

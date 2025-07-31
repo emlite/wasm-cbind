@@ -5,6 +5,11 @@
 #include "CSSRule.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSRuleList CSSRuleList;
 typedef struct CSSKeyframeRule CSSKeyframeRule;
 

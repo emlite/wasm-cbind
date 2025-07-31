@@ -5,6 +5,11 @@
 #include "Event.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct NavigationDestination NavigationDestination;
 typedef struct AbortSignal AbortSignal;
 typedef struct FormData FormData;

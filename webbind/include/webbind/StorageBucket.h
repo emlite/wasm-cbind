@@ -5,6 +5,11 @@
 #include "StorageManager.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct IDBFactory IDBFactory;
 typedef struct CacheStorage CacheStorage;
 typedef struct FileSystemDirectoryHandle FileSystemDirectoryHandle;

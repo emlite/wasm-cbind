@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DelegatedInkTrailPresenter DelegatedInkTrailPresenter;
 typedef struct InkPresenterParam InkPresenterParam;
 typedef struct Element Element;

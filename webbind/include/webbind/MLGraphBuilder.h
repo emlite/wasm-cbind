@@ -5,6 +5,11 @@
 #include "MLContext.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct MLOperand MLOperand;
 typedef struct MLTensor MLTensor;
 typedef struct MLGraph MLGraph;

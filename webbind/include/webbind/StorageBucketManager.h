@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct StorageBucket StorageBucket;
 typedef struct StorageBucketOptions StorageBucketOptions;
 

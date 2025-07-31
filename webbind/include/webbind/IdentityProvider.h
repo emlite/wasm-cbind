@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct IdentityResolveOptions IdentityResolveOptions;
 typedef struct IdentityUserInfo IdentityUserInfo;
 typedef struct IdentityProviderConfig IdentityProviderConfig;

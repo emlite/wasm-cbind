@@ -1,5 +1,5 @@
-const fs = require("fs").promises;
-const path = require("path");
+import fs from "fs/promises";
+import path from "path";
 
 const DEFAULT_ROOT = "./webbind/include/webbind";
 const HEADER_EXTENSIONS = new Set([".h"]);
@@ -63,6 +63,7 @@ async function processHeader(filePath) {
   else openIdx = 0;
 
   const openingBlock = [
+    "",
     "#ifdef __cplusplus",
     "extern \"C\" {",
     "#endif",
@@ -81,7 +82,7 @@ async function processHeader(filePath) {
 
   const out = lines.join("\n").replace(/\n/g, EOL);
   await fs.writeFile(filePath, out, "utf8");
-  console.log(`UPDATED: ${filePath}`);
+//   console.log(`UPDATED: ${filePath}`);
 }
 
 export async function postproc() {

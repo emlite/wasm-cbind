@@ -6,6 +6,10 @@
 #include "CookieStore.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 DECLARE_EMLITE_TYPE(CookieChangeEvent, Event);
 

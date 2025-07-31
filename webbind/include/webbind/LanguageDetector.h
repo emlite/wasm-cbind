@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct LanguageDetector LanguageDetector;
 typedef struct LanguageDetectorCreateOptions LanguageDetectorCreateOptions;
 typedef struct LanguageDetectorCreateCoreOptions LanguageDetectorCreateCoreOptions;

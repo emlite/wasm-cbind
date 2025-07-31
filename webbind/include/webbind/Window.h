@@ -6,6 +6,11 @@
 #include "window.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Document Document;
 typedef struct Location Location;
 typedef struct History History;

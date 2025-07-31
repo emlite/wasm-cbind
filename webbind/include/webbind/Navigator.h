@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AudioSession AudioSession;
 typedef struct AudioContext AudioContext;
 typedef struct BatteryManager BatteryManager;

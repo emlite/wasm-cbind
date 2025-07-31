@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct GPUComputePipeline GPUComputePipeline;
 typedef struct GPUBuffer GPUBuffer;
 typedef struct GPUBindGroup GPUBindGroup;

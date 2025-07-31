@@ -5,6 +5,11 @@
 #include "CSSStyleValue.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct CSSTransformComponent CSSTransformComponent;
 typedef struct DOMMatrix DOMMatrix;
 

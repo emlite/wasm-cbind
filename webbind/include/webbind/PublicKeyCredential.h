@@ -5,6 +5,11 @@
 #include "Credential.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct AuthenticatorResponse AuthenticatorResponse;
 typedef struct AuthenticationExtensionsClientOutputs AuthenticationExtensionsClientOutputs;
 typedef struct PublicKeyCredentialCreationOptions PublicKeyCredentialCreationOptions;

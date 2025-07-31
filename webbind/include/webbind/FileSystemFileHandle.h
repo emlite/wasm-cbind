@@ -5,6 +5,11 @@
 #include "FileSystemHandle.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct File File;
 typedef struct FileSystemWritableFileStream FileSystemWritableFileStream;
 typedef struct FileSystemCreateWritableOptions FileSystemCreateWritableOptions;

@@ -5,6 +5,11 @@
 #include "AbstractRange.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Node Node;
 typedef struct Range Range;
 typedef struct DocumentFragment DocumentFragment;

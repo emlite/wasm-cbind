@@ -5,6 +5,11 @@
 #include "ExtendableEvent.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Notification Notification;
 
 

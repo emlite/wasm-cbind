@@ -5,6 +5,11 @@
 #include "GPUCommandEncoder.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct GPUCommandBuffer GPUCommandBuffer;
 typedef struct GPUBuffer GPUBuffer;
 typedef struct GPUTexelCopyBufferLayout GPUTexelCopyBufferLayout;

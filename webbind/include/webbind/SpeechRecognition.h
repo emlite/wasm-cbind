@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct SpeechGrammarList SpeechGrammarList;
 typedef struct SpeechRecognitionPhraseList SpeechRecognitionPhraseList;
 typedef struct MediaStreamTrack MediaStreamTrack;

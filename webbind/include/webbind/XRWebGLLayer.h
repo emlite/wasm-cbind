@@ -5,6 +5,11 @@
 #include "XRLayer.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct WebGLFramebuffer WebGLFramebuffer;
 typedef struct XRViewport XRViewport;
 typedef struct XRView XRView;

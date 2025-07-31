@@ -5,6 +5,11 @@
 #include "Sensor.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct GeolocationSensorReading GeolocationSensorReading;
 typedef struct ReadOptions ReadOptions;
 typedef struct AbortSignal AbortSignal;

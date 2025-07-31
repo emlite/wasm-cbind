@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct MediaSourceHandle MediaSourceHandle;
 typedef struct SourceBufferList SourceBufferList;
 typedef struct SourceBuffer SourceBuffer;

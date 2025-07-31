@@ -5,6 +5,11 @@
 #include "SVGSVGElement.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct HTMLCanvasElement HTMLCanvasElement;
 typedef struct CanvasRenderingContext2DSettings CanvasRenderingContext2DSettings;
 typedef struct DOMMatrix DOMMatrix;

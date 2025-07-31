@@ -5,6 +5,11 @@
 #include "Event.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct BluetoothDevice BluetoothDevice;
 typedef struct BluetoothManufacturerDataMap BluetoothManufacturerDataMap;
 typedef struct BluetoothServiceDataMap BluetoothServiceDataMap;

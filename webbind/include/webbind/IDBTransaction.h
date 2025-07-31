@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct DOMStringList DOMStringList;
 typedef struct IDBDatabase IDBDatabase;
 typedef struct DOMException DOMException;

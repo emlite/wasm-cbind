@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct GamepadButton GamepadButton;
 typedef struct GamepadTouch GamepadTouch;
 typedef struct GamepadHapticActuator GamepadHapticActuator;

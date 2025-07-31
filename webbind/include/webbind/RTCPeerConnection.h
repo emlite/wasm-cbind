@@ -6,6 +6,11 @@
 #include "RTCIceTransport.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct RTCOfferOptions RTCOfferOptions;
 typedef struct RTCLocalSessionDescriptionInit RTCLocalSessionDescriptionInit;
 typedef struct RTCSessionDescription RTCSessionDescription;

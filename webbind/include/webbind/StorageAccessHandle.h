@@ -5,6 +5,11 @@
 #include "StorageManager.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct Storage Storage;
 typedef struct IDBFactory IDBFactory;
 typedef struct LockManager LockManager;

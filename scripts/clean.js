@@ -4,7 +4,7 @@ import { OUT_INC, OUT_SRC } from "./utils.js";
 import { IGNOREDFILES } from "./ignored.js";
 
 const reHeaderLine =
-  /^\s*(#|typedef\s+(?:struct|enum|union)\s+\w+\s+\*?\s*\w+\s*;)/; // for preprocessor directives and forward decls
+  /^\s*(#pragma|#include|#ifdef|#endif|extern|typedef\s+(?:struct|enum|union)\s+\w+\s+\*?\s*\w+\s*;)/; // for preprocessor directives and forward decls
 
 async function* walk(dir) {
   for (const dirent of await fs.readdir(dir, { withFileTypes: true })) {

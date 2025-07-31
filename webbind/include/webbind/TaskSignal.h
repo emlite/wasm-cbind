@@ -5,6 +5,11 @@
 #include "AbortSignal.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct TaskSignal TaskSignal;
 typedef struct TaskSignalAnyInit TaskSignalAnyInit;
 

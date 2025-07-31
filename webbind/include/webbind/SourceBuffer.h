@@ -5,6 +5,11 @@
 #include "EventTarget.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct TimeRanges TimeRanges;
 typedef struct AudioTrackList AudioTrackList;
 typedef struct VideoTrackList VideoTrackList;

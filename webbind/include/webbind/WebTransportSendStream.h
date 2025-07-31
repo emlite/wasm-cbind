@@ -5,6 +5,11 @@
 #include "WritableStream.h"
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct WebTransportSendGroup WebTransportSendGroup;
 typedef struct WebTransportSendStreamStats WebTransportSendStreamStats;
 typedef struct WebTransportWriter WebTransportWriter;

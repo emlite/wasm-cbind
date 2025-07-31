@@ -4,6 +4,11 @@
 #include <jsbind/jsbind.h>
 #include "enums.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 typedef struct MLGraph MLGraph;
 typedef struct MLTensor MLTensor;
 typedef struct MLTensorDescriptor MLTensorDescriptor;
